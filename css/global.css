@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+body {
+	font: 14px/20px Microsoft YaHei, "\5b8b\4f53";
+	color: #444243;
+	height: 100%;
+	_background-image: url(about:blank);
+	_background-attachment: fixed;
+	/*解决IE6下position:absolute;时抖动的现象*/
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption,
+th {
+	text-align: left;
+}
+
+fieldset,
+img {
+	border: 0;
+	vertical-align: middle;
+}
+
+li {
+	list-style: none;
+}
+
+i {
+	display: inline-block;
+}
+
+p {
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+b {
+	font-weight: normal;
+}
+
+q:before,
+q:after {
+	content: '';
+}
+
+sup {
+	vertical-align: text-top;
+}
+
+sub {
+	vertical-align: text-bottom;
+}
+
+input,
+textarea,
+select,
+button {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	vertical-align: middle;
+	outline: none;
+}
+
+input[type="checkbox"] {
+	margin: 0 3px 0 0;
+}
+
+pre,
+code,
+kbd,
+samp,
+tt {
+	line-height: 100%;
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px dotted #ccc;
+	height: 1px;
+	margin: 10px 0 9px 0;
+	*margin: 3px 0 2px 0;
+}
+
+
+/* a link css */
+
+a:focus,
+*:focus {
+	outline: none;
+	noFocusLine: expression(this.onFocus=this.blur());
+}
+
+a {
+	color: #444243;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #9E0301;
+	text-decoration: underline;
+}
+
+.clear {
+	zoom: 1;
+	clear: both;
+	display: block;
+}
+
+.clear:after,
+.section:after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	visibility: hidden;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+::selection {
+	background: #007ccc;
+	color: white;
+}
