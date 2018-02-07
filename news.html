@@ -8,6 +8,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 		<link href="css/global.css" rel="stylesheet" type="text/css">
 		<link href="css/public.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-theme.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css"/>
 		<script language="JavaScript" type="text/javascript" src="Inc/Search.js"></script>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -27,19 +29,19 @@
 						<ul>
 							<!--导航-->
 							<li class="off">
-								<a href="index.html" class="on"><img src="images/search.png" style="width: 18px;"/>首页<i style="font-weight: 700;">HOME</i></a>
+								<a href="index.html"><img src="images/search.png" style="width: 18px;" />首页<i style="font-weight: 700;">HOME</i></a>
 							</li>
 							<li class="off">
-								<a href="About.html"><img src="images/search.png" style="width: 18px;"/>关于<i style="font-weight: 700;">ABOUT</i></a>
+								<a href="About.html"><img src="images/search.png" style="width: 18px;" />关于<i style="font-weight: 700;">ABOUT</i></a>
 							</li>
 							<li class="off">
-								<a href="service.html"><img src="images/search.png" style="width: 18px;"/>服务<i style="font-weight: 700;">SERVICE</i></a>
+								<a href="service.html"><img src="images/search.png" style="width: 18px;" />服务<i style="font-weight: 700;">SERVICE</i></a>
 							</li>
 							<li class="off">
-								<a href="Article.html"><img src="images/search.png" style="width: 18px;"/>案例<i style="font-weight: 700;">CASE</i></a>
+								<a href="Article.html"><img src="images/search.png" style="width: 18px;" />案例<i style="font-weight: 700;">CASE</i></a>
 							</li>
 							<li class="off">
-								<a href="contact.html"><img src="images/search.png" style="width: 18px;"/>联系<i style="font-weight: 700;">CONTACT</i></a>
+								<a href="contact.html"><img src="images/search.png" style="width: 18px;" />联系<i style="font-weight: 700;">CONTACT</i></a>
 							</li>
 							<!--导航-->
 						</ul>
@@ -50,7 +52,7 @@
 			<div class="cls"></div>
 			<!--/*滚动图*/-->
 
-			<div class="header" style="height:280px;background:url('images/sub_40.jpg') no-repeat center top">
+			<div class="header" style="background:url('images/sub_6.jpg') no-repeat center top;">
 
 			</div>
 			<!--/*滚动图*/-->
@@ -214,60 +216,73 @@ href="Article_show.html?id=297&mid=41&sid=0">查看详情</A>]</SPAN>
 
 				</div>
 				<!--右边-->
-				<div class="genius_index8"">
-			<div class="genius_index8_1" style="background-color: red;">
-				<div class="genius_index8_1_img">
-					<img src="images/opacity_logo.png" style="width: 200px;"/>
-				</div>
-				<div class="genius_index8_1_letters">
-					<p style="font-size: 18px;">成都市高新区永丰路20号附1号大中华办公楼</p>
-					<p style="font-size: 12px;">DAZHONGHUA OFFICE BUILDING, NO. 20, YONGFENG ROAD.</p>
-					<p style="font-size: 12px;">HIGH-TECH ZONE, CHENGDU</p>
-				</div>
-			</div>
-			<div class="genius_index8_2">
-				<div class="genius_index8_2_img" style="position: absolute; z-index: -1;">
-					<img src="images/fwsj.jpg"/>
-				</div>
-				<div class="genius_index8_2_letters">
-					<p>为您服务：028-85120685</p>
-					<p>服务时间：周一至周五8：30-18：00</p>
-				</div>
-			</div>
-			<div class="genius_index8_3" style="background-color: gainsboro;">
-				<div class="qrcode">
-					<div class="weibo">
-						<div class="weibo_img">
+				<!--bootstrap实现底部4块div-->
+		<div class="genius_index8">
+			<div class="row" style="max-width: 1933px; margin: auto;">
+				<div class="col-lg-6 col-md-6 col-xs-6" style="padding: 0;">
+					<div class="genius_index8_1" style="background-color: red;">
+						<div class="genius_index8_1_img">
+							<img src="images/opacity_logo.png" style="width: 200px;"/>
 						</div>
-						<p>手足官网微博</p>
-					</div>
-					<div class="wechat">
-						<div class="wechat_img">
+						<div class="genius_index8_1_letters">
+							<p style="font-size: 18px;">成都市高新区永丰路20号附1号大中华办公楼</p>
+							<p style="font-size: 12px;">DAZHONGHUA OFFICE BUILDING, NO. 20, YONGFENG ROAD.</p>
+							<p style="font-size: 12px;">HIGH-TECH ZONE, CHENGDU</p>
 						</div>
-						<p>手足官方微信</p>
 					</div>
 				</div>
-				
+				<div class="col-lg-6 col-md-6 col-xs-6" style="padding: 0;">
+					<div class="genius_index8_2">
+						<div class="genius_index8_2_img" style="position: absolute; z-index: -1; height: 100%; width: 100%;">
+							<img src="images/fwsj.jpg"/ style="height: 100%; width: 100%;">
+						</div>
+						<div class="genius_index8_2_letters">
+							<p>为您服务：028-85120685</p>
+							<p>服务时间：周一至周五8：30-18：00</p>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="genius_index8_4">
-				<iframe src="map.html" width="100%" height="100%"></iframe>
+			<div class="row" style="max-width: 1933px; margin: auto;">
+				<div class="col-lg-6 col-md-6 col-xs-6" style="padding: 0;">
+					<div class="genius_index8_3" style="background-color: gainsboro;">
+						<div class="qrcode">
+							<div class="weibo">
+								<div class="weibo_img">
+								</div>
+								<p>手足官网微博</p>
+							</div>
+							<div class="wechat">
+								<div class="wechat_img">
+								</div>
+								<p>手足官方微信</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-xs-6" style="padding: 0;">
+					<div class="genius_index8_4">
+						<iframe src="map.html" width="100%" height="100%"></iframe>
+					</div>
+				</div>
 			</div>
 		</div>
-				<div class="cls"></div>
+		</div>
+				<div class="cls "></div>
 			</div>
 		</div>
-		<div class="cls"></div>
+		<div class="cls "></div>
 
-		<div class="cls"></div>
-		<div class="footer">
-			<div style="height: 10px;"></div>
+		<div class="cls "></div>
+		<div class="footer ">
+			<div style="height: 10px; "></div>
 			<ul>
-				<div class="footer_0">
-					<a href="#">首页</a>
-					<a href="">关于</a>
-					<a href="">服务</a>
-					<a href="">案例</a>
-					<a href="">联系</a>
+				<div class="footer_0 ">
+					<a href="# ">首页</a>
+					<a href=" ">关于</a>
+					<a href=" ">服务</a>
+					<a href=" ">案例</a>
+					<a href=" ">联系</a>
 				</div>
 			</ul>
 		</div>
