@@ -73,6 +73,7 @@ body {
 	_background-image: url(about:blank);
 	_background-attachment: fixed;
 	/*解决IE6下position:absolute;时抖动的现象*/
+	min-width: 1336px;
 }
 
 table {
