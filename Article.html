@@ -8,6 +8,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 		<link href="css/global.css" rel="stylesheet" type="text/css">
 		<link href="css/public.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-theme.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css"/>
 		<script language="JavaScript" type="text/javascript" src="Inc/Search.js"></script>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -50,7 +52,7 @@
 			<div class="cls"></div>
 			<!--/*滚动图*/-->
 
-			<div class="header" style="height:400px;background:url('images/case.jpg') no-repeat center top;background-size: 100%;">
+			<div class="header" style="background:url('images/case.jpg') no-repeat center top;">
 
 			</div>
 			<!--/*滚动图*/-->
@@ -159,21 +161,14 @@
 
 						<!-- AspNetPager V7.2 for VS2005 & VS2008  Copyright:2003-2008 Webdiyer (www.webdiyer.com) -->
 						<div id="pagger" style="text-align: center">
-							<div style="width:40%;float:left;text-align: center">
-								共21页，当前为第1页，每页9条，合计181条
-							</div>
-							<div style="width:60%;float:left;">
+							<div style="width:100%;float:left;">
+								<span>共21页，当前为第1页，每页9条，合计181条</span>
 								<a disabled="disabled" style="margin-right:5px;">首页</a>
 								<a disabled="disabled" style="margin-right:5px;">上一页</a><span style="margin-right:5px;font-weight:Bold;color:red;">1</span>
 								<a href="" style="margin-right:5px;">2</a>
 								<a href="" style="margin-right:5px;">3</a>
 								<a href="" style="margin-right:5px;">4</a>
 								<a href="" style="margin-right:5px;">5</a>
-								<a href="" style="margin-right:5px;">6</a>
-								<a href="" style="margin-right:5px;">7</a>
-								<a href="" style="margin-right:5px;">8</a>
-								<a href="" style="margin-right:5px;">9</a>
-								<a href="" style="margin-right:5px;">10</a>
 								<a href="" style="margin-right:5px;">...</a>
 								<a href="" style="margin-right:5px;">下一页</a>
 								<a href="" style="margin-right:5px;">尾页</a>&nbsp;&nbsp;转到
@@ -183,22 +178,6 @@
 									<option value="3">3</option>
 									<option value="4">4</option>
 									<option value="5">5</option>
-									<option value="6">6</option>
-									<option value="7">7</option>
-									<option value="8">8</option>
-									<option value="9">9</option>
-									<option value="10">10</option>
-									<option value="11">11</option>
-									<option value="12">12</option>
-									<option value="13">13</option>
-									<option value="14">14</option>
-									<option value="15">15</option>
-									<option value="16">16</option>
-									<option value="17">17</option>
-									<option value="18">18</option>
-									<option value="19">19</option>
-									<option value="20">20</option>
-									<option value="21">21</option>
 								</select> 页
 							</div>
 						</div>
@@ -215,43 +194,55 @@
 			</div>
 		</div>
 		<div class="cls"></div>
-		<div class="genius_index8"">
-			<div class="genius_index8_1" style="background-color: red;">
-				<div class="genius_index8_1_img">
-					<img src="images/opacity_logo.png" style="width: 200px;"/>
-				</div>
-				<div class="genius_index8_1_letters">
-					<p style="font-size: 18px;">成都市高新区永丰路20号附1号大中华办公楼</p>
-					<p style="font-size: 12px;">DAZHONGHUA OFFICE BUILDING, NO. 20, YONGFENG ROAD.</p>
-					<p style="font-size: 12px;">HIGH-TECH ZONE, CHENGDU</p>
-				</div>
-			</div>
-			<div class="genius_index8_2">
-				<div class="genius_index8_2_img" style="position: absolute; z-index: -1;">
-					<img src="images/fwsj.jpg"/>
-				</div>
-				<div class="genius_index8_2_letters">
-					<p>为您服务：028-85120685</p>
-					<p>服务时间：周一至周五8：30-18：00</p>
-				</div>
-			</div>
-			<div class="genius_index8_3" style="background-color: gainsboro;">
-				<div class="qrcode">
-					<div class="weibo">
-						<div class="weibo_img">
+		<!--bootstrap实现底部4块div-->
+		<div class="genius_index8">
+			<div class="row" style="max-width: 1933px; margin: auto;">
+				<div class="col-lg-6 col-md-6" style="padding: 0;">
+					<div class="genius_index8_1" style="background-color: red;">
+						<div class="genius_index8_1_img">
+							<img src="images/opacity_logo.png" style="width: 200px;"/>
 						</div>
-						<p>手足官网微博</p>
-					</div>
-					<div class="wechat">
-						<div class="wechat_img">
+						<div class="genius_index8_1_letters">
+							<p style="font-size: 18px;">成都市高新区永丰路20号附1号大中华办公楼</p>
+							<p style="font-size: 12px;">DAZHONGHUA OFFICE BUILDING, NO. 20, YONGFENG ROAD.</p>
+							<p style="font-size: 12px;">HIGH-TECH ZONE, CHENGDU</p>
 						</div>
-						<p>手足官方微信</p>
 					</div>
 				</div>
-				
+				<div class="col-lg-6 col-md-6" style="padding: 0;">
+					<div class="genius_index8_2">
+						<div class="genius_index8_2_img" style="position: absolute; z-index: -1; height: 100%; width: 100%;">
+							<img src="images/fwsj.jpg"/ style="height: 100%; width: 100%;">
+						</div>
+						<div class="genius_index8_2_letters">
+							<p>为您服务：028-85120685</p>
+							<p>服务时间：周一至周五8：30-18：00</p>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="genius_index8_4">
-				<iframe src="map.html" width="100%" height="100%"></iframe>
+			<div class="row" style="max-width: 1933px; margin: auto;">
+				<div class="col-lg-6 col-md-6" style="padding: 0;">
+					<div class="genius_index8_3" style="background-color: gainsboro;">
+						<div class="qrcode">
+							<div class="weibo">
+								<div class="weibo_img">
+								</div>
+								<p>手足官网微博</p>
+							</div>
+							<div class="wechat">
+								<div class="wechat_img">
+								</div>
+								<p>手足官方微信</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6" style="padding: 0;">
+					<div class="genius_index8_4">
+						<iframe src="map.html" width="100%" height="100%"></iframe>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="cls"></div>

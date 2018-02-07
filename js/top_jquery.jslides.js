@@ -16,7 +16,7 @@ $(function(){
 	ADDLI();
 	var pagination = $('#pagination li');
 	var paginationwidth = $('#pagination').width();
-	$('#pagination').css('margin-left',(470-paginationwidth))
+	$('#pagination').css('margin-left','-121px')
 	
 	pagination.eq(0).addClass('current')
 		
